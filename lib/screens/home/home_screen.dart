@@ -5,15 +5,6 @@ import 'home_state_notifier.dart';
 
 final counterProvider = StateNotifierProvider((ref) => HomeStateNotifier());
 
-class CounterNotifier with ChangeNotifier {
-  int _count = 0;
-  int get count => _count;
-  void increment() => {
-    _count++,
-    notifyListeners(),
-  };
-}
-
 class HomeScreen extends HookWidget {
   HomeScreen({
     Key? key,
