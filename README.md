@@ -1,6 +1,6 @@
 # flutter-native-app-sandbox
 
-Flutter アプリ開発の実験場
+Flutter アプリ開発の素振り
 
 ## Required
 
